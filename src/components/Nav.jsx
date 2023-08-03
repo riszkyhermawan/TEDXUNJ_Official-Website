@@ -89,8 +89,12 @@ const Nav = () => {
                 </MenuList>
               </Menu>
             </li>
-            <button className="md:px-2 md:py-1 md:text-xxs bg-[#EB0028] font-artega text-xs px-6 py-4 text-white drop-shadow-none">
-              Get The Ticket
+            <button className="md:px-2 md:py-1 md:text-xxs bg-[#EB0028]  px-6 py-4 drop-shadow-none">
+              <a href="/ticket" className="md:text-xxs font-artega text-xs text-white hover:text-white">
+                <span>
+                Get The Ticket
+                </span>
+              </a>
             </button>
           </ul>
         </div>
