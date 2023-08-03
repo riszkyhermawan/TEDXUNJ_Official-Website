@@ -19,7 +19,9 @@ const Nav = () => {
       text-gray-800"
           >
             <span className="text-3xl text-indigo-600 mr-1 pt-2">
-              <img src={logo} className="w-28" />
+              <a href="/">
+                <img src={logo} className="w-28" />
+              </a>
             </span>
           </div>
 
@@ -84,6 +86,11 @@ const Nav = () => {
                   <a href="/merchandise">
                     <MenuItem className=" cursor-pointer md:text-xs bg-transparent text-white text-base active:bg-transparent ">
                       Merchandise
+                    </MenuItem>
+                  </a>
+                  <a href="/sponsorship">
+                    <MenuItem className=" cursor-pointer md:text-xs bg-transparent text-white text-base active:bg-transparent ">
+                      Sponsorship
                     </MenuItem>
                   </a>
                 </MenuList>

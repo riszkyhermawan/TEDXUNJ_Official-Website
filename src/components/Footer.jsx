@@ -3,7 +3,7 @@ import ig from '../assets/img/footerIg.svg'
 
 const Footer = () => {
   return (
-    <div className="p-6 lg:p-2 w-screen flex flex-col bg-red-600 bg-opacity-50 gap-4 md:flex-row md:justify-center md:items-center lg:gap-16 xl:gap-56">
+    <div className="p-6 lg:p-2 w-screen flex flex-col bg-red-600 bg-opacity-50 gap-4 md:flex-row md:justify-center md:items-center lg:gap-16 xl:gap-56 relative">
         <div className="flex flex-col">
             <img src={logo} className='w-20'/>
             <a href="" className='text-white text-xxxs font-artega underline lg:text-xxs lg:ml-4'>Visit TEDXUNJ program page</a>
