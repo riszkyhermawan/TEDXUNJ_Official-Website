@@ -4,6 +4,7 @@ import TicketPage from  './pages/TicketPage'
 import GrandThemePage from './pages/GrandThemePage'
 import SponsorshipPage from './pages/SponsorshipPage'
 import WhatisTEDX from './pages/WhatisTEDX'
+import SpeakerPage from './pages/SpeakerPage'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/grandtheme' element= {<GrandThemePage />}></Route>
           <Route path='/sponsorship' element= {<SponsorshipPage />}></Route>
           <Route path='/whatistedx' element= {<WhatisTEDX />}></Route>
+          <Route path='/speaker' element= {<SpeakerPage />}></Route>
         </Routes>
       </Router>
     </>
