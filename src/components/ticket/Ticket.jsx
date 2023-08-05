@@ -1,4 +1,4 @@
-import presale1Active from '../../assets/img/ticket/presale1_primary.svg'
+import presale1Active from '../../assets/img/ticket/presale1_primary.png'
 import presale2Non from '../../assets/img/ticket/presale2_sec.svg'
 import presale2Active from '../../assets/img/ticket/presale2_primary.svg'
 import presale1Non from '../../assets/img/ticket/presale1_sec.svg'
