@@ -9,7 +9,7 @@ const isVisible1 = useIsVisible(ref1);
   return (
     <div ref={ref1} className={`transition-opacity ease-in-out duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
         <div className="container w-full p-8 justify-center items-center flex flex-col gap-6">
-        <h2 className="font-artega text-center">What is TED</h2>
+        <h2 className="font-artega text-center lg:text-4xl">What is TED</h2>
         <img src={ted} className="mx-auto" />
         <span className="font-artega text-xxs text-justify md:text-base">
             TED Talk is a recorded public-speaking presentation that was originally

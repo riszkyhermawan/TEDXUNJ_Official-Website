@@ -18,6 +18,7 @@ export default withMT({
       fontSize: {
         xxxs: "0.4rem",
         xxs: "0.6rem",
+        title: "36px",
       },
     },
   },

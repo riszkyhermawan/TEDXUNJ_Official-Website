@@ -4,7 +4,7 @@ import Ticket from "../components/ticket/Ticket";
 import Footer from "../components/Footer";
 import btn from "../assets/img/ticket/bookButton.svg";
 import bg from "../assets/img/ticket/bg_ticket.svg";
-
+import TicketButton from "../components/ticket/TicketButton.";
 
 const TicketPage = () => {
   return (
@@ -18,13 +18,7 @@ const TicketPage = () => {
         <TitleHome />
       </div>
       <Ticket />
-      <div className="w-screen hover:cursor-pointer justify-center items-center px-20 my-4 -mt-4 md:px-56 lg:px-[500px]">
-        <button className="p-0 m-0 bg-transparent hover:bg-transparent hover:border-none cursor-pointer">
-          <a href="">
-            <img src={btn} />
-          </a>
-        </button>
-      </div>
+      <TicketButton />
       <div className="lg:mt-28">
         <Footer />
       </div>

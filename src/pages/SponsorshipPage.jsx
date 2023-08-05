@@ -6,16 +6,15 @@ import bg from '../assets/img/sponsor/bgSponsor.svg'
 
 const SponsorshipPage = () => {
   return (
-    <div className="scroll-smooth bg-black static top-0 h-fit w-screen flex flex-col justify-center items-center overflow-hidden lg:gap-16">
-      <img src={bg} className="absolute overflow-hidden" />
-      <div className="w-screen container ml-0 h-fit">
+    <div className="minh-screen gap-16 scroll-smooth bg-black static top-0 h-fit w-screen flex flex-col justify-center items-center overflow-x-hidden">
+      <img src={bg} className="absolute hidden md:block" />
+      <div className="w-screen min-h-screen container ml-0 h-fit">
         <Nav/>
+        <TitleSponsor />
+        <SponsorLogo />
       </div>
-      <TitleSponsor />
-      <SponsorLogo />
-      <div className="mt-36">
-          <Footer />
-      </div>
+      
+      <Footer />
     </div>
   );
 };

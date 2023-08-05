@@ -14,7 +14,7 @@ const Tedx = () => {
       }`}
     >
       <div className="container w-full p-8 justify-center items-center flex flex-col gap-6">
-        <h2 className="font-artega text-center">What is TEDX</h2>
+        <h2 className="font-artega text-center lg:text-4xl">What is TEDX</h2>
         <img src={ted} className="mx-auto" />
         <span className="font-artega text-xxs text-justify md:text-base">
           TEDx is a profound initiative, created in the spirit of mission all

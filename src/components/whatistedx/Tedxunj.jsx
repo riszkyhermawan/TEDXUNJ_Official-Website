@@ -14,7 +14,7 @@ const Tedxunj = () => {
       }`}
     >
       <div className="container w-full p-8 justify-center items-center flex flex-col gap-6">
-        <h2 className="font-artega text-center">What is TEDXUNJ</h2>
+        <h2 className="font-artega text-center lg:text-4xl">What is TEDXUNJ</h2>
         <img src={ted} className="mx-auto" />
         <span className="font-artega text-xxs text-justify md:text-base">
           TEDxUNJ is a program where community members and community leaders can
