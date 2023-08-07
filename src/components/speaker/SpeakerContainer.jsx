@@ -16,9 +16,9 @@ const SpeakerContainer = () => {
         }`}
       >
         <div className="flex flex-col md:flex-row justify-center items-center">
-          <img src={speaker1} />
-          <img src={speaker2} />
-          <img src={speaker4} />
+          <img src={speaker1} loading="lazy"/>
+          <img src={speaker2} loading="lazy"/>
+          <img src={speaker4} loading="lazy"/>
         </div>
       </div>
     </div>

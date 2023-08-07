@@ -7,11 +7,11 @@ import m5 from '../../assets/img/merch/merch5.svg'
 const MerchCards = () => {
     return (
         <div className='flex gap-16 flex-wrap justify-center items-center my-16'>
-            <img src={m1} />
-            <img src={m2} />
-            <img src={m3} />
-            <img src={m4} />
-            <img src={m5} />
+            <img src={m1} loading="lazy"/>
+            <img src={m2} loading="lazy"/>
+            <img src={m3} loading="lazy"/>
+            <img src={m4} loading="lazy"/>
+            <img src={m5} loading="lazy"/>
         </div>
     )
 }

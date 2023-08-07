@@ -14,8 +14,8 @@ const Timeline = () => {
       }`}
     >
       <div className="container flex flex-col justify-center items-center gap-2 lg:my-24 md:gap-6">
-        <img src={title} className="w-28 md:w-36 lg:w-64" />
-        <img src={timeline} className="w-64 md:w-96 lg:w-[700px]" />
+        <img src={title} className="w-28 md:w-36 lg:w-64" loading="lazy"/>
+        <img src={timeline} className="w-64 md:w-96 lg:w-[700px]" loading="lazy"/>
       </div>
     </div>
   );

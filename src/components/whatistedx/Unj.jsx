@@ -14,9 +14,9 @@ const Ted = () => {
       }`}
     >
       <div className="container w-full p-8 justify-center items-center flex flex-col gap-6">
-        <h2 className="font-artega text-center">AT STATE UNIVERISTY OF JAKARTA</h2>
-        <img src={ted} className="mx-auto" />
-        <span className="font-artega text-xxs text-justify md:text-base">
+        <h2 className="font-artega text-center text-white">AT STATE UNIVERISTY OF JAKARTA</h2>
+        <img src={ted} className="mx-auto" loading="lazy"/>
+        <span className="font-artega text-xxs text-justify md:text-base text-white">
           TEDxUNJ 2023 is back with a new theme, namely "Empowering The Future:
           Nurturing The World Through The Smallest Aspects Around Us". The theme
           was taken with the intention to share "the ideas worth spreading" with

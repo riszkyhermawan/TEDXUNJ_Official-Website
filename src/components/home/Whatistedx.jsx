@@ -15,7 +15,7 @@ const Whatistedx = () => {
         <h3 className="text-center text-white text-sm font-medium lg:text-lg">
           What is TEDx?
         </h3>
-        <p className="text-center text-neutral-400 text-xxs font-medium lg:text-xs">
+        <p className="text-center text-neutral-400 text-xxs font-medium lg:text-xs text-white">
           In the spirit of ideas worth spreading, TED has created a program
           called TEDx. TEDx is a program of local, self-organized events that
           bring people together to share a TED-like experience. Our event is
@@ -30,7 +30,7 @@ const Whatistedx = () => {
         <h3 className="text-center text-white text-sm font-medium lg:text-lg">
           Our Mission
         </h3>
-        <p className="text-center text-neutral-400 text-xxs font-medium lg:text-xs">
+        <p className="text-center text-neutral-400 text-xxs font-medium lg:text-xs text-white">
           TEDxUNJ aims to create intellectual, diversity, and inclusion
           atmosphere around Universitas Negeri Jakarta and Indonesia. Thus to
           provide a platform for ideas to be expressed so in the future this can

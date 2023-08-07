@@ -20,15 +20,15 @@ const HomeSection1 = () => {
             isVisible1 ? "opacity-100" : "opacity-0"
           }`}
         >
-          <img src={bg1} className="absolute top-0 right-0 md:hidden" />
-          <img src={bg2} className="absolute bottom-36 left-0 md:hidden" />
+          <img src={bg1} className="absolute top-0 right-0 md:hidden" loading="lazy" />
+          <img src={bg2} className="absolute bottom-36 left-0 md:hidden" loading="lazy"/>
           <img
             src={bgmd1}
-            className="hidden top-0 right-0 md:block absolute w-2/4 "
+            className="hidden top-0 right-0 md:block absolute w-2/4 " loading="lazy"
           />
           <img
             src={bgmd2}
-            className="hidden left-0 bottom=0 md:block absolute w-1/3 lg:w-2/4 "
+            className="hidden left-0 bottom=0 md:block absolute w-1/3 lg:w-2/4 " loading="lazy"
           />
         </div>
         <Nav />

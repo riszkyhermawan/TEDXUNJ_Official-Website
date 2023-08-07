@@ -15,7 +15,7 @@ const HomeSpeakerCard1 = () => {
       <div className="w-full h-fit md:w-[200px] lg:w-[250px] xl:w-[300px] relative">
         <img
           src={speaker}
-          className="rounded-md md:w-[200px] lg:w-[250px] xl:w-[300px]"
+          className="rounded-md md:w-[200px] lg:w-[250px] xl:w-[300px]" loading="lazy"
         />
       </div>
     </div>

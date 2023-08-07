@@ -15,10 +15,10 @@ const HomeSection4 = () => {
         </div>
         <a href="/speaker">
           <button className="flex-row gap-1 flex md:px-2 md:py-1 md:text-xxs bg-[#EB0028] font-artega text-xxs px-2 py-1 text-white drop-shadow-none lg:text-xs lg:px-4 lg:py-2 lg:rounded-xl">
-                <span>
+                <span className="text-white">
                   See All Speakers 
                 </span>
-                <img src={arrow} className="w-4 -rotate-90" />
+                <img src={arrow} className="w-4 -rotate-90" loading="lazy"/>
           </button>
         </a>
     </div>

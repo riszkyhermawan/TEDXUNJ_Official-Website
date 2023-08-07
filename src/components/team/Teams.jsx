@@ -31,7 +31,7 @@ const Teams = () => {
           isVisible1 ? "opacity-100" : "opacity-0"
         }`}
       >
-        <img src={team2} />
+        <img src={team2} loading="lazy" />
       </div>
       <div
         ref={ref2}
@@ -39,7 +39,7 @@ const Teams = () => {
           isVisible2 ? "opacity-100" : "opacity-0"
         }`}
       >
-        <img src={team3} />
+        <img src={team3} loading="lazy" />
       </div>
       <div
         ref={ref3}
@@ -48,7 +48,7 @@ const Teams = () => {
         }`}
       >
         <div className="md:py-24 justify-center items-center mx-auto">
-          <img src={team4} className="mx-auto"/>
+          <img src={team4} className="mx-auto" loading="lazy"/>
         </div>
       </div>
       <div
@@ -57,7 +57,7 @@ const Teams = () => {
           isVisible4 ? "opacity-100" : "opacity-0"
         }`}
       >
-        <img src={team5} />
+        <img src={team5} loading="lazy" />
       </div>
       <div
         ref={ref5}
@@ -66,7 +66,7 @@ const Teams = () => {
         }`}
       >
         <div className="md:py-24 justify-center items-center mx-auto">
-          <img src={team6} className="mx-auto" />
+          <img src={team6} className="mx-auto" loading="lazy"/>
         </div>
       </div>
       <div
@@ -75,7 +75,7 @@ const Teams = () => {
           isVisible6 ? "opacity-100" : "opacity-0"
         }`}
       >
-        <img src={team7} />
+        <img src={team7} loading="lazy"/>
       </div>
       <div
         ref={ref7}

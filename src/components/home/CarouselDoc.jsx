@@ -46,14 +46,14 @@ export default function CarouselDefault() {
         </div>
       )}
     >
-      <img src={doc1} alt="image 1" className="h-full w-full object-cover" />
-      <img src={doc2} alt="image 2" className="h-full w-full object-cover" />
-      <img src={doc3} alt="image 3" className="h-full w-full object-cover" />
-      <img src={doc4} alt="image 3" className="h-full w-full object-cover" />
-      <img src={doc5} alt="image 3" className="h-full w-full object-cover" />
-      <img src={doc6} alt="image 3" className="h-full w-full object-cover" />
-      <img src={doc7} alt="image 3" className="h-full w-full object-cover" />
-      <img src={doc8} alt="image 3" className="h-full w-full object-cover" />
+      <img src={doc1} alt="image 1" className="h-full w-full object-cover" loading="lazy" />
+      <img src={doc2} alt="image 2" className="h-full w-full object-cover" loading="lazy"/>
+      <img src={doc3} alt="image 3" className="h-full w-full object-cover" loading="lazy"/>
+      <img src={doc4} alt="image 3" className="h-full w-full object-cover" loading="lazy"/>
+      <img src={doc5} alt="image 3" className="h-full w-full object-cover" loading="lazy"/>
+      <img src={doc6} alt="image 3" className="h-full w-full object-cover" loading="lazy"/>
+      <img src={doc7} alt="image 3" className="h-full w-full object-cover" loading="lazy"/>
+      <img src={doc8} alt="image 3" className="h-full w-full object-cover" loading="lazy"/>
     </Carousel>
   );
 }

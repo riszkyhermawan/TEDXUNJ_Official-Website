@@ -96,8 +96,8 @@ const Nav = () => {
                 </MenuList>
               </Menu>
             </li>
-            <button className="md:px-2 md:py-1 md:text-xxs bg-[#EB0028]  px-6 py-4 drop-shadow-none">
-              <a href="/ticket" className="md:text-xxs font-artega text-xs text-white hover:text-white">
+            <button className="md:px-4 md:py-2 md:text-base bg-[#EB0028]  px-6 py-4 drop-shadow-none">
+              <a href="/ticket" className="md:text-xs font-artega text-xs text-white hover:text-white">
                 <span>
                 Get The Ticket
                 </span>

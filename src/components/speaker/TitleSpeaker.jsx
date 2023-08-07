@@ -13,7 +13,7 @@ const TitleSpeaker = () => {
           isVisible1 ? "opacity-100" : "opacity-0"
         }`}
       >
-        <img src={title} />
+        <img src={title} loading="lazy" />
       </div>
     </div>
   );

@@ -12,7 +12,7 @@ const TitleMerch = () => {
             isVisible1 ? "opacity-100" : "opacity-0"
         }`}
         >
-        <h1 className="font-artega hidden md:block">OUR MERCHANDISE</h1>
+        <h1 className="font-artega hidden md:block text-white">OUR MERCHANDISE</h1>
         </div>
         <div
         ref={ref1}
@@ -20,7 +20,7 @@ const TitleMerch = () => {
             isVisible1 ? "opacity-100" : "opacity-0"
         }`}
         >
-        <h2 className="font-artega md:hidden">OUR MERCHANDISE</h2>
+        <h2 className="font-artega md:hidden text-white">OUR MERCHANDISE</h2>
         </div>
 
     </div>

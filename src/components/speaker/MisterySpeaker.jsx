@@ -13,7 +13,7 @@ const MisterySpeaker = () => {
             isVisible1 ? "opacity-100" : "opacity-0"
         }`}
         >
-        <img src={cs} />
+        <img src={cs} loading="lazy" />
         </div>
     </div>
   );

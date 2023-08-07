@@ -13,7 +13,7 @@ const TitleTeam = () => {
       }`}
     >
       <div className="w-full p-2 flex justify-center items-center">
-        <img src={title} />
+        <img src={title} loading="lazy" />
       </div>
     </div>
   );

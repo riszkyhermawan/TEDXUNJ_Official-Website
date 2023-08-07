@@ -14,9 +14,9 @@ const Tedx = () => {
       }`}
     >
       <div className="container w-full p-8 justify-center items-center flex flex-col gap-6">
-        <h2 className="font-artega text-center lg:text-4xl">What is TEDX</h2>
-        <img src={ted} className="mx-auto" />
-        <span className="font-artega text-xxs text-justify md:text-base">
+        <h2 className="font-artega text-center lg:text-4xl text-white">What is TEDX</h2>
+        <img src={ted} className="mx-auto" loading="lazy"/>
+        <span className="font-artega text-xxs text-justify md:text-base text-white">
           TEDx is a profound initiative, created in the spirit of mission all
           over TED to research and find “decent ideas spread." TEDx brings the
           TED spirit to local communities all over world through TEDx events.

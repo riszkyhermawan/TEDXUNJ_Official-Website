@@ -13,7 +13,7 @@ const LocationCard = () => {
       }`}
     >
       <div className="w-full md:w-[500px] lg:w-[600px] px-7 py-5 bg-gradient-to-r from-stone-500 to-white/75 rounded-3xl shadow border border-white backdrop-blur-2xl flex-col justify-center items-start gap-4 inline-flex">
-        <img src={loc} className="w-full relative rounded-2xl md:w-full" />
+        <img src={loc} className="w-full relative rounded-2xl md:w-full" loading="lazy"/>
         <div className="flex-col justify-start items-start gap-2 flex ">
           <div className="w-full text-white text-xs font-medium">
             Aula Latief Lt2, Gedung Rektorat UNJ. Blok Daksenapati Timur No.6,

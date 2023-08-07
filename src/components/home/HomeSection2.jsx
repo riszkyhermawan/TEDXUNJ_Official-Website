@@ -10,7 +10,7 @@ const HomeSection2 = () => {
   return (
     <div className="container w-screen font-artega mt-32 px-10 h-fit xl:mt-72 lg:my-48">
       <div ref={ref1} className={`transition-opacity ease-in-out duration-200 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
-        <img src={bg1} className="absolute left-0" />
+        <img src={bg1} className="absolute left-0" loading="lazy" />
         <img src={bg2} className="absolute right-0" />
       </div>
       <Whatistedx />

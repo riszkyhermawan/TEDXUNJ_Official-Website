@@ -16,7 +16,7 @@ const HomeSpeakerTitle = () => {
         <div className="text-white text-xs font-medium md:text-base lg:text-md xl:text-xl">
           Main Event
         </div>
-        <img src={title} className="md:w-36 lg:w-56 xl:w-96" />
+        <img src={title} className="md:w-36 lg:w-56 xl:w-96" loading="lazy"/>
       </div>
     </div>
   );

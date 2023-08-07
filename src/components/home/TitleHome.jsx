@@ -15,9 +15,9 @@ const TitleHome = () => {
       }`}
     >
       <div className="space-y-2 relative flex flex-col md:flex-row md:space-x-2 justify-center items-center md:mt-16 lg:my-48">
-        <img src={logo} className="mx-auto md:my-auto md:mx-0 lg:w-56" />
-        <img src={logox} className="mx-auto md:my-auto md:mx-0 lg:w-36" />
-        <img src={title} className="mx-auto md:my-auto md:mx-0 lg:w-72" />
+        <img src={logo} className="mx-auto md:my-auto md:mx-0 lg:w-56" loading="lazy"/>
+        <img src={logox} className="mx-auto md:my-auto md:mx-0 lg:w-36" loading="lazy"/>
+        <img src={title} className="mx-auto md:my-auto md:mx-0 lg:w-72" loading="lazy"/>
       </div>
     </div>
   );
