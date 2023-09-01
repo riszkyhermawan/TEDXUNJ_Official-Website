@@ -1,4 +1,4 @@
-import team1 from "../../assets/img/team/team1.svg";
+import team1 from "../../assets/img/team/team1.png";
 import team1_nobg from "../../assets/img/team/team1_nobg.svg";
 
 const Team1 = () => {

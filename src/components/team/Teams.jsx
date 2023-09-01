@@ -1,9 +1,9 @@
-import team2 from "../../assets/img/team/team2.svg";
-import team3 from "../../assets/img/team/team3.svg";
-import team4 from "../../assets/img/team/team4.svg";
-import team5 from "../../assets/img/team/team5.svg";
-import team6 from "../../assets/img/team/team6.svg";
-import team7 from "../../assets/img/team/team7.svg";
+import team2 from "../../assets/img/team/team2.png";
+import team3 from "../../assets/img/team/team3.png";
+import team4 from "../../assets/img/team/team4.png";
+import team5 from "../../assets/img/team/team5.png";
+import team6 from "../../assets/img/team/team6.png";
+import team7 from "../../assets/img/team/team7.png";
 import team8 from "../../assets/img/team/team8.svg";
 import { useIsVisible } from "../ScorllAnim";
 import { useRef } from "react";
@@ -83,7 +83,7 @@ const Teams = () => {
           isVisible7 ? "opacity-100" : "opacity-0"
         }`}
       >
-        <img src={team8} />
+        <img src={team8} loading="lazy"/>
       </div>
     </div>
   );

@@ -15,8 +15,6 @@ const SpeakerPage = () => {
       </div>
       <TitleSpeaker />
       <SpeakerContainer />
-      <MisterySpeaker />
-      <ComingSoon />
       <Footer />
     </div>
   );
